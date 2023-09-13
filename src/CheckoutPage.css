@@ -1,0 +1,74 @@
+/* CheckoutPage.css */
+
+.checkout-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bill-box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .bill-box h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .bill-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bill-box li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .payment-methods {
+    margin-top: 20px;
+  }
+  
+  .payment-methods label {
+    margin-right: 10px;
+  }
+  
+  .payment-form {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .payment-form button:hover {
+    background-color: #0056b3;
+  }
+  
